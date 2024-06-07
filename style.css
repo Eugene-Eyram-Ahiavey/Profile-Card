@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+display: grid;
+place-items: center;
+}
+
+#first-section{
+width: 50%;
+height: 60vh;
+/* border: 2px solid black; */
+margin-top: 7rem;
+border-radius: 10px;
+background-color: #1AA5B1;
+display: grid;
+place-items: center;
+}
+
+.profile-card{
+width: 35%;
+height: 45vh;
+position: relative;
+box-shadow: 0px 0px 8px 0px #444444;
+border-radius: 10px;
+}
+.semi{
+height: 35%;
+border-bottom: 2px solid #1AA5B1
+/* background-color: #fff; */
+}
+
+.image{
+width: 100px;
+height: 100px;
+/* border-radius: 50%; */
+position:absolute;
+left: 28%;
+top: 20%;
+
+}
+.image img{
+width: 100%;
+height: 100%;
+display: inline-block;
+border-radius: 50%;
+}
+
+.lower-section{
+height: 65%;
+background-color: whitesmoke;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.name h3{
+padding-top: 4rem;
+text-align: center;
+}
+.name h3::after{
+content: " 26";
+opacity: 0.6;
+}
+.name p{
+text-align: center;
+opacity: 0.6;
+}
+
+.followers{
+border-top: 1px solid rgba(189, 179, 179, 0.5);
+margin-top: 2rem;
+}
+.nums, .last{
+display: flex;
+justify-content: space-around;
+}
+.nums{
+padding-top: 15px;
+}
+.last{
+padding-top: 5px;
+}
+.last p{
+opacity: 0.7;
+}
+
